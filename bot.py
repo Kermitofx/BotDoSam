@@ -30,7 +30,7 @@ OFC_G = os.getenv('ONE_GROUP_ONLY')
 REG_GROUP = os.getenv('REGISTER')
 
 #MODO = DEV / PROD
-modo = os.getenv('MODO')
+modo = os.getenv('DEV')
 
 #SHODAN KEYS
 shod_key1 = os.getenv('SHODAN_1')
