@@ -21,7 +21,7 @@ from pytz import timezone
 import unicodedata as ud
 
 #BOT TOKEN
-API_TOKEN = os.getenv('956323132:AAEH1-KFy6IHd7b9oE0ukmMzwtMtcVxIS1I')
+API_TOKEN = os.getenv('833645402:AAFZ2_KahHcDCYQG76AW6Ux2i4LCJjgekRg')
 
 #GRUPO_PERMITIDO (APENAS UM GRUPO)
 OFC_G = os.getenv('ONE_GROUP_ONLY')
@@ -40,10 +40,10 @@ shodan_keys.append(shod_key1)
 shodan_keys.append(shod_key2)
 
 ####
-canal = ['https://t.me/iludidos', '@iludidos']
+canal = ['https://t.me/GroupHead', '@GroupHead']
 ####
 
-permitidos = ['-1001257249481']
+permitidos = ['-1428106053']
 
 logging.basicConfig(level=logging.INFO)
 
